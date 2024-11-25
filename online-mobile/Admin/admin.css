@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.heading {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerCRUD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.container2 {
+    text-align:left;
+    margin: 10px 60px;
+}
+
+.container2 p{
+    font-size: 200px;
+    margin: 10px 40px;
+    
+}
+
+.container2 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#adminName {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 195vh;
+    margin: 25px;
+}
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 20%;
+}
+
+.submit {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+    margin: 20px;
+}
+
+.submit a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.submit:hover {
+    background-color: #1a7730;
+}
+
+.container3 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submit {
+        margin: 10px 0;
+    }
+}

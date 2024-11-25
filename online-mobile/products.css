@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header nav .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.customer {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #e9e9e9;
+}
+
+.customer .user {
+    display: inline-block;
+}
+
+.customer .user a {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.customer .user a:hover {
+    text-decoration: underline;
+}
+
+.search {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    display: inline-block;
+    position: relative;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #555;
+}
+
+.products {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pCategory, .pdetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: black 4px;
+}
+
+.pCategory img, .pdetails img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.pCategory .category-item, .pdetails .product-item {
+    flex: 1 0 21%; /* Adjust the percentage to fit the items in the container */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pCategory .category-item h3, .pdetails .product-item h3 {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
